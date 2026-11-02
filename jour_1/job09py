@@ -1,0 +1,9 @@
+nom= "bracelet en or" 
+prix_unitaire = 9.99
+quantité_en_stock = 50
+
+def afficher_stock ():
+    print (f"il reste {quantité_en_stock} {nom}  affiché à {prix_unitaire} en boutique ")
+
+afficher_stock()
+
